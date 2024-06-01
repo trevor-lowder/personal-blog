@@ -3,9 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Blog Post 1</title>
 </head>
-<body class="post-container">
-    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="post-container">
+        <article>
+            <header>
+                <h1>Blog Post Title 1</h1>
+                <p>by <span class="author">Author Name</span></p>
+            </header>
+            <section class="post-content">
+                <img src="assets/sample-image.jpg" alt="Sample Image">
+                <figcaption>Image Caption Here</figcaption>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <!-- More content here -->
+            </section>
+            <section class="sharing-links">
+                <h3>Share this post:</h3>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </section>
+            <section class="author-info">
+                <img src="assets/avatar.jpg" alt="Author Avatar" class="avatar">
+                <div class="author-details">
+                    <h2>Author Name</h2>
+                    <p>Title at Company/School</p>
+                    <p>Short bio of the author...</p>
+                </div>
+            </section>
+            <section class="related-posts">
+                <h3>Related Articles</h3>
+                <ul>
+                    <li><a href="post2.html">Related Post 1</a></li>
+                    <li><a href="post3.html">Related Post 2</a></li>
+                </ul>
+            </section>
+            <section class="subscribe-form">
+                <h3>Subscribe to our Newsletter</h3>
+                <form>
+                    <input type="text" name="name" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Your Email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 Tech Savvy</p>
+    </footer>
 </body>
 </html>
