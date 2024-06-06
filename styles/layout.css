@@ -1,9 +1,22 @@
 /* Layout related styles */
 header {
-    margin-bottom: 2em;
     font-size: x-large;
+    display: block;
 }
 
-footer {
-    margin-top: 2em;
+header, footer {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: .1em 0;
+}
+
+.nav-list {
+    display: flex;
+    align-content: center;
+}
+
+hr.solid {
+    border-top: 2px solid var(--accent-color);
+    width: 300px;
 }

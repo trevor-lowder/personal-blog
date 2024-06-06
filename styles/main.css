@@ -10,7 +10,7 @@
 :root {
     --primary-color: #0d1117; /* Ebony */
     --secondary-color: #3a57e8; /* Ultramarine Blue */
-    --accent-color: #f5f5f5; /* Soft White */
+    --accent-color: #aeeeff; /* Soft White */
     --font-sans: 'Poppins', sans-serif;
     --font-serif: 'EB Garamond', serif;
 }
@@ -24,13 +24,6 @@ body {
     background-color: var(--accent-color);
 }
 
-header, footer {
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-    text-align: center;
-    padding: 1em 0;
-}
-
 main {
     padding: 2em;
     background-color: var(--accent-color);
@@ -42,20 +35,47 @@ main {
 /* Navigation styles */
 .nav-list {
     display: flex;
-    justify-content: center;
     gap: 1em;
+    justify-content: center;
     list-style: none;
-    text-decoration: none;
     padding: 0;
     margin: 0 0 2em 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
     color: white;
 }
 
-.nav-list li {
-    margin: 0;
+.nav-list li a:visited {
     color: white;
 }
 
+.nav-list li a:hover {
+    color: var(--accent-color);
+}
+
+/* General link styles */
+a:link {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+a:active {
+    text-decoration: none;
+}
+
+  
 /* Grid layout for main content */
 .design-grid {
     display: grid;
@@ -73,7 +93,7 @@ main {
     text-align: center;
 }
 
-.typography p {
+.typography p, ul, ol {
     text-align: left;
 }
 
@@ -105,26 +125,4 @@ main {
     color: var(--primary-color);
 }
 
-/* Button styles */
-.btn {
-    padding: 0.5em 1em;
-    background-color: var(--secondary-color);
-    color: var(--accent-color);
-    border: none;
-    cursor: pointer;
-    margin-right: 0.5em;
-    border-radius: 5px;
-}
 
-.btn-secondary {
-    background-color: var(--primary-color);
-}
-
-/* Card styles */
-.card {
-    border: 1px solid #ccc;
-    padding: 1em;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 1em;
-}
