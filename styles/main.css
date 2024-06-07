@@ -27,7 +27,6 @@ body {
 main {
     padding: 2em;
     background-color: var(--accent-color);
-    margin: 1em auto;
     max-width: 1200px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -81,20 +80,6 @@ a:active {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 2em;
-}
-
-/* Design System styles */
-.typography, .color-scheme, .components, .lists {
-    padding: 1em;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.typography p, ul, ol {
-    text-align: left;
 }
 
 .color-swatch {
