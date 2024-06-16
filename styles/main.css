@@ -27,7 +27,7 @@ body {
 main {
     padding: 2em;
     background-color: whitesmoke;
-    max-width: 1200px;
+    max-width: 100vw;
     min-height: calc(100vh - 282px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -48,10 +48,14 @@ main {
 }
 
 .nav-list li a:visited {
-    color: var(--accent-color);
+    color: white;
 }
 
 .nav-list li a:hover {
+    color: var(--accent-color);
+}
+
+.nav-list li a:active {
     color: var(--accent-color);
 }
 
@@ -79,7 +83,7 @@ a:active {
 /* Grid layout for main content */
 .design-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 2em;
 }
 
