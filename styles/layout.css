@@ -2,6 +2,11 @@
 header {
     font-size: x-large;
     display: block;
+    height: 150px;
+}
+
+footer {
+    height: 60px;
 }
 
 footer > p {

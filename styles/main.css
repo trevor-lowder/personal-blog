@@ -26,8 +26,9 @@ body {
 
 main {
     padding: 2em;
-    background-color: var(--accent-color);
+    background-color: whitesmoke;
     max-width: 1200px;
+    min-height: calc(100vh - 282px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -47,7 +48,7 @@ main {
 }
 
 .nav-list li a:visited {
-    color: white;
+    color: var(--accent-color);
 }
 
 .nav-list li a:hover {
