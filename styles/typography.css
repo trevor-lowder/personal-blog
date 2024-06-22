@@ -8,6 +8,10 @@ h1 {
     font-size: xx-large;
 }
 
+h2 {
+    font-size: x-large;
+}
+
 header > h1 {
     font-size: xx-large;
     color: var(--accent-color);

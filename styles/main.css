@@ -25,10 +25,10 @@ body {
 }
 
 main {
-    padding: 2em;
+    padding: 5em;
     background-color: whitesmoke;
     max-width: 100vw;
-    min-height: calc(100vh - 282px);
+    min-height: calc(100vh - 375px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
