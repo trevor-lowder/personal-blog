@@ -29,6 +29,26 @@
     border-radius: 50%;
 }
 
+.subscribe-card {
+    background-color: var(--accent-color);
+}
+
+.author-info {
+    padding: 1em;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .subscribe-form {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-form > input {
+    width: 50%;
+    height: 25px;
+    margin: 5px;
 }

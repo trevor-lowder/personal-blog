@@ -22,3 +22,8 @@ p, ul, ol {
     font-size: large;
     text-align: left;
 }
+
+.author-details > p {
+    font-size: medium;
+    margin-top: 2;
+}

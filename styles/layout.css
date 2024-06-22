@@ -29,3 +29,10 @@ hr.solid {
     border-top: 2px solid var(--accent-color);
     width: 300px;
 }
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
