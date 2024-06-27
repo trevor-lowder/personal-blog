@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <title>HTML - Tech Savvy Blog</title>
   </head>
   <body>
@@ -27,16 +31,104 @@
         <section class="post-content">
           <img src="assets/sample-image.jpg" alt="Sample Image" />
           <figcaption>Image Caption Here</figcaption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-          <!-- More content here -->
-        </section>
-        <section class="sharing-links">
-          <h2>Share this post:</h2>
+          <h2>What is HTML?</h2>
+          <p>
+            HTML, or HyperText Markup Language, is the standard language used to
+            create web pages. It is the foundation of web development, allowing
+            you to structure content on the web.
+          </p>
+
+          <h3>Tags and Elements</h3>
+          <p>
+            HTML uses tags to create elements. Tags are enclosed in angle
+            brackets, such as <code>&lt;p&gt;</code> for a paragraph. Elements
+            are the building blocks of HTML, encompassing everything from
+            headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) to
+            links (<code>&lt;a&gt;</code>).
+          </p>
+
+          <h3>Common HTML Tags</h3>
+          <p>Here are some commonly used HTML tags:</p>
           <ul>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-            <li><a href="#">LinkedIn</a></li>
+            <li><code>&lt;div&gt;</code> - A container for content.</li>
+            <li><code>&lt;span&gt;</code> - A container for inline content.</li>
+            <li><code>&lt;img&gt;</code> - Embeds an image.</li>
+            <li><code>&lt;a&gt;</code> - Creates a hyperlink.</li>
+            <li>
+              <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> - Creates an
+              unordered list and list items.
+            </li>
+            <li>
+              <code>&lt;ol&gt;</code> and <code>&lt;li&gt;</code> - Creates an
+              ordered list and list items.
+            </li>
           </ul>
+
+          <h3>Semantic HTML</h3>
+          <p>
+            Semantic HTML introduces meaning to your content, helping search
+            engines and other tools understand the structure of your web page.
+            Examples include:
+          </p>
+          <ul>
+            <li>
+              <code>&lt;header&gt;</code> - Defines a header for a document or
+              section.
+            </li>
+            <li>
+              <code>&lt;nav&gt;</code> - Defines a container for navigation
+              links.
+            </li>
+            <li>
+              <code>&lt;section&gt;</code> - Defines a section in a document.
+            </li>
+            <li>
+              <code>&lt;article&gt;</code> - Defines an independent,
+              self-contained content.
+            </li>
+            <li>
+              <code>&lt;footer&gt;</code> - Defines a footer for a document or
+              section.
+            </li>
+          </ul>
+
+          <h3>HTML Attributes</h3>
+          <p>
+            HTML elements can have attributes, which provide additional
+            information about the element. Attributes are always included in the
+            opening tag and usually come in name/value pairs like
+            <code>name="value"</code>. For example:
+          </p>
+          <code
+            >&lt;a href="https://www.example.com"&gt;Visit
+            Example&lt;/a&gt;</code
+          >
+
+          <h3>Conclusion</h3>
+          <p>
+            Understanding HTML is essential for web development. By mastering
+            tags, elements, and semantic HTML, you can create well-structured
+            and meaningful web pages that are easy to navigate and understand.
+          </p>
+        </section>
+        <section>
+          <div class="sharing-links">
+            <h2>Share this post:</h2>
+            <a
+              href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <div class="divider"></div>
+            <a
+              href="#"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <div class="divider"></div>
+            <a
+              href="#"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
         </section>
         <section class="author-info">
           <img
@@ -55,10 +147,10 @@
         </section>
         <section class="related-posts">
           <h2>Related Articles</h2>
-          <ul>
+          <ol>
             <li><a href="post2.html">Cascading Style Sheets</a></li>
             <li><a href="post3.html">Design Systems</a></li>
-          </ul>
+          </ol>
         </section>
         <section class="card subscribe-card">
           <h2>Subscribe for Updates</h2>

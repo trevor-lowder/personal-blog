@@ -39,6 +39,26 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.sharing-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.sharing-links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.5em;
+}
+
+.sharing-links .divider {
+  width: 1px;
+  height: 24px;
+  background-color: var(--primary-color);
+}
+
 .subscribe-form {
   display: flex;
   flex-direction: column;
