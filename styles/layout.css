@@ -1,39 +1,46 @@
 /* Layout related styles */
 header {
-    font-size: x-large;
-    display: block;
-    height: 150px;
+  font-size: x-large;
+  display: block;
+  height: 150px;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
-    height: 60px;
+  height: 60px;
 }
 
 footer > p {
-    text-align: center;
+  text-align: center;
 }
 
-header, footer {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
-    text-align: center;
-    padding: .1em 0;
+header,
+footer {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  text-align: center;
+  padding: 0.1em 0;
 }
 
 .nav-list {
-    display: flex;
-    align-content: center;
+  display: flex;
+  align-content: center;
 }
 
 hr.solid {
-    border-top: 2px solid var(--accent-color);
-    width: 300px;
+  border-top: 2px solid var(--accent-color);
+  width: 300px;
 }
 
+.about {
+  max-width: 1000px;
+}
 
+.home {
+  max-width: 1000px;
+}

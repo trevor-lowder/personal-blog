@@ -41,7 +41,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   text-justify: center;
@@ -77,14 +77,6 @@
   width: 1px;
   height: 24px;
   background-color: var(--primary-color);
-}
-
-.about {
-  max-width: 1000px;
-}
-
-.home {
-  max-width: 1000px;
 }
 
 .post-container .header-image {
@@ -127,6 +119,7 @@
   color: var(--primary-color);
   text-align: center;
   margin-top: 2em;
+  margin-bottom: 2em;
   border-radius: 8px;
 }
 
@@ -165,4 +158,3 @@
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
 }
-

@@ -1,116 +1,115 @@
 /* Import other CSS files */
-@import url('layout.css');
-@import url('typography.css');
-@import url('components.css');
+@import url("layout.css");
+@import url("typography.css");
+@import url("components.css");
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Poppins:wght@400;700&display=swap");
 
 /* CSS Variables for colors and fonts */
 :root {
-    --primary-color: #0d1117; /* Ebony */
-    --secondary-color: #3a57e8; /* Ultramarine Blue */
-    --accent-color: #aeeeff; /* Soft White */
-    --font-sans: 'Poppins', sans-serif;
-    --font-serif: 'EB Garamond', serif;
+  --primary-color: #0d1117; /* Ebony */
+  --secondary-color: #3a57e8; /* Ultramarine Blue */
+  --accent-color: #aeeeff; /* Soft White */
+  --font-sans: "Poppins", sans-serif;
+  --font-serif: "EB Garamond", serif;
 }
 
 /* Main styles for the blog */
 body {
-    font-family: var(--font-sans);
-    margin: 0;
-    padding: 0;
-    color: var(--primary-color);
-    background-color: var(--accent-color);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
 }
 
 main {
-    padding: 0em 5em 5em 5em;
-    background-color: whitesmoke;
-    max-width: 100vw;
-    min-height: calc(100vh - 375px);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 0em 5em 0em 5em;
+  background-color: whitesmoke;
+  max-width: 100vw;
+  min-height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation styles */
 .nav-list {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 2em 0;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em 0;
 }
 
 .nav-list li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .nav-list li a:visited {
-    color: white;
+  color: white;
 }
 
 .nav-list li a:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .nav-list li a:active {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* General link styles */
 a:link {
-    text-decoration: none;
-    color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 a:visited {
-    text-decoration: none;
-    color: var(--secondary-color);
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 a:hover {
-    text-decoration: none;
-    color: var(--accent-color);
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-  
 /* Grid layout for main content */
 .design-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
 }
 
 .color-swatch {
-    padding: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1em auto;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em auto;
 }
 
 .primary-color {
-    background-color: var(--primary-color);
-    color: var(--accent-color);
+  background-color: var(--primary-color);
+  color: var(--accent-color);
 }
 
 .secondary-color {
-    background-color: var(--secondary-color);
-    color: white;
+  background-color: var(--secondary-color);
+  color: white;
 }
 
 .accent-color {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
