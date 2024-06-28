@@ -39,8 +39,14 @@ hr.solid {
 
 .about {
   max-width: 1000px;
+  padding-top: 4em;
 }
 
 .home {
   max-width: 1000px;
+  padding-top: 4em;
+}
+
+.design-grid {
+  padding: 4em;
 }

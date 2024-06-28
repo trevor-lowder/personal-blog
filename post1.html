@@ -1,163 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <title>HTML | Tech Savvy Blog</title>
-  </head>
-  <body>
-    <header>
-      <h1>Tech Savvy Blog</h1>
-      <hr class="solid" />
-      <nav>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="design.html">Design</a></li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/site.webmanifest">
+  <title>HTML | Tech Savvy Blog</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tech Savvy Blog</h1>
+    <hr class="solid" />
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="design.html">Design</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="post-container">
+      <section class="post-header">
+        <h1>Hypertext Markup Language</h1>
+      </section>
+      <section class="post-content">
+        <div class="crop">
+          <img src="assets/HTML.png" alt="Sample Image" class="header-image" />
+        </div>
+        <figcaption>HTML code in VS Code</figcaption>
+        <h2>What is HTML?</h2>
+        <p>
+          HTML, or HyperText Markup Language, is the standard language used to
+          create web pages. It is the foundation of web development, allowing
+          you to structure content on the web.
+        </p>
+        <h2>Tags and Elements</h2>
+        <p>
+          HTML uses tags to create elements. Tags are enclosed in angle
+          brackets, such as <code>&lt;p&gt;</code> for a paragraph. Elements
+          are the building blocks of HTML, encompassing everything from
+          headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) to
+          links (<code>&lt;a&gt;</code>).
+        </p>
+        <h2>Common HTML Tags</h2>
+        <p>Here are some commonly used HTML tags:</p>
+        <ul>
+          <li><code>&lt;div&gt;</code> - A container for content.</li>
+          <li><code>&lt;span&gt;</code> - A container for inline content.</li>
+          <li><code>&lt;img&gt;</code> - Embeds an image.</li>
+          <li><code>&lt;a&gt;</code> - Creates a hyperlink.</li>
+          <li>
+            <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> - Creates an
+            unordered list and list items.
+          </li>
+          <li>
+            <code>&lt;ol&gt;</code> and <code>&lt;li&gt;</code> - Creates an
+            ordered list and list items.
+          </li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <article class="post-container">
-        <section class="post-header">
-          <h1>Hypertext Markup Language</h1>
-        </section>
-        <section class="post-content">
-          <div class="crop">
-            <img
-              src="assets/HTML.png"
-              alt="Sample Image"
-              class="header-image"
-            />
-          </div>
-          <figcaption>HTML code in VS Code</figcaption>
-          <h2>What is HTML?</h2>
-          <p>
-            HTML, or HyperText Markup Language, is the standard language used to
-            create web pages. It is the foundation of web development, allowing
-            you to structure content on the web.
-          </p>
-          <h2>Tags and Elements</h2>
-          <p>
-            HTML uses tags to create elements. Tags are enclosed in angle
-            brackets, such as <code>&lt;p&gt;</code> for a paragraph. Elements
-            are the building blocks of HTML, encompassing everything from
-            headings (<code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>) to
-            links (<code>&lt;a&gt;</code>).
-          </p>
-          <h2>Common HTML Tags</h2>
-          <p>Here are some commonly used HTML tags:</p>
-          <ul>
-            <li><code>&lt;div&gt;</code> - A container for content.</li>
-            <li><code>&lt;span&gt;</code> - A container for inline content.</li>
-            <li><code>&lt;img&gt;</code> - Embeds an image.</li>
-            <li><code>&lt;a&gt;</code> - Creates a hyperlink.</li>
-            <li>
-              <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> - Creates an
-              unordered list and list items.
-            </li>
-            <li>
-              <code>&lt;ol&gt;</code> and <code>&lt;li&gt;</code> - Creates an
-              ordered list and list items.
-            </li>
-          </ul>
-          <h2>Semantic HTML</h2>
-          <p>
-            Semantic HTML introduces meaning to your content, helping search
-            engines and other tools understand the structure of your web page.
-            Examples include:
-          </p>
-          <ul>
-            <li>
-              <code>&lt;header&gt;</code> - Defines a header for a document or
-              section.
-            </li>
-            <li>
-              <code>&lt;nav&gt;</code> - Defines a container for navigation
-              links.
-            </li>
-            <li>
-              <code>&lt;section&gt;</code> - Defines a section in a document.
-            </li>
-            <li>
-              <code>&lt;article&gt;</code> - Defines an independent,
-              self-contained content.
-            </li>
-            <li>
-              <code>&lt;footer&gt;</code> - Defines a footer for a document or
-              section.
-            </li>
-          </ul>
-          <h2>HTML Attributes</h2>
-          <p>
-            HTML elements can have attributes, which provide additional
-            information about the element. Attributes are always included in the
-            opening tag and usually come in name/value pairs like
-            <code><span class="elem">name=</span><span class="attr">"value"</span></code>. For example:
-          </p>
-            <code>&lt;a <span class="elem">href=</span><span class="attr">"https://www.example.com"</span></span>&gt;<span class="text">Visit
+        <h2>Semantic HTML</h2>
+        <p>
+          Semantic HTML introduces meaning to your content, helping search
+          engines and other tools understand the structure of your web page.
+          Examples include:
+        </p>
+        <ul>
+          <li>
+            <code>&lt;header&gt;</code> - Defines a header for a document or
+            section.
+          </li>
+          <li>
+            <code>&lt;nav&gt;</code> - Defines a container for navigation
+            links.
+          </li>
+          <li>
+            <code>&lt;section&gt;</code> - Defines a section in a document.
+          </li>
+          <li>
+            <code>&lt;article&gt;</code> - Defines an independent,
+            self-contained content.
+          </li>
+          <li>
+            <code>&lt;footer&gt;</code> - Defines a footer for a document or
+            section.
+          </li>
+        </ul>
+        <h2>HTML Attributes</h2>
+        <p>
+          HTML elements can have attributes, which provide additional
+          information about the element. Attributes are always included in the
+          opening tag and usually come in name/value pairs like
+          <code><span class="elem">name=</span><span class="attr">"value"</span></code>. For example:
+        </p>
+        <code>&lt;a <span class="elem">href=</span><span class="attr">"https://www.example.com"</span></span>&gt;<span class="text">Visit
               Example</span>&lt;/a&gt;
             </code>
-          <h2>Conclusion</h2>
+        <p>this is a link that looks like this on the page: <a href="https://www.example.com">Visit Example</a></p>
+        <h2>Conclusion</h2>
+        <p>
+          Understanding HTML is essential for web development. By mastering
+          tags, elements, and semantic HTML, you can create well-structured
+          and meaningful web pages that are easy to navigate and understand.
+        </p>
+      </section>
+      <section>
+        <div class="sharing-links">
+          <h2>Share this post:</h2>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </section>
+      <section class="author-info">
+        <img src="assets/Side Profile Business.jpg" alt="Author Avatar" class="avatar" />
+        <div class="author-details">
+          <h3>Trevor Lowder</h3>
+          <p>Full Stack Web Developer</p>
           <p>
-            Understanding HTML is essential for web development. By mastering
-            tags, elements, and semantic HTML, you can create well-structured
-            and meaningful web pages that are easy to navigate and understand.
+            Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
+            veteran
           </p>
-        </section>
-        <section>
-          <div class="sharing-links">
-            <h2>Share this post:</h2>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </section>
-        <section class="author-info">
-          <img
-            src="assets/Side Profile Business.jpg"
-            alt="Author Avatar"
-            class="avatar"
-          />
-          <div class="author-details">
-            <h3>Trevor Lowder</h3>
-            <p>Full Stack Web Developer</p>
-            <p>
-              Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
-              veteran
-            </p>
-          </div>
-        </section>
-        <section class="related-posts">
-          <h2>Related Articles</h2>
-          <ol>
-            <li><a href="post2.html">Cascading Style Sheets</a></li>
-            <li><a href="post3.html">Design Systems</a></li>
-          </ol>
-        </section>
-        <section class="card subscribe-card">
-          <h2>Subscribe for Updates</h2>
-          <form class="subscribe-form">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="email" name="email" placeholder="Email" />
-            <button type="button" class="btn">SUBSCRIBE</button>
-          </form>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <p>&copy; 2024 Trevor Lowder. All rights reserved.</p>
-    </footer>
-  </body>
+        </div>
+      </section>
+      <section class="related-posts">
+        <h2>Related Articles</h2>
+        <ol>
+          <li><a href="post2.html">Cascading Style Sheets</a></li>
+          <li><a href="post3.html">Design Systems</a></li>
+        </ol>
+      </section>
+      <section class="card subscribe-card">
+        <h2>Subscribe for Updates</h2>
+        <form class="subscribe-form">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <button type="button" class="btn">SUBSCRIBE</button>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Trevor Lowder. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>

@@ -66,3 +66,24 @@ code {
 .text {
   color: white;
 }
+
+.css-code {
+  display: block;
+  font-family: 'Courier New', Courier, monospace; /* Monospace font */
+}
+
+.css-code::before {
+  content: "h1 {";
+  color: #e8ae3a;
+}
+
+.css-code::after {
+  content: "}";
+  color: #e8ae3a;
+}
+
+.css-code br + span {
+  display: block;
+  color: white;
+  margin-left: 1em;
+}

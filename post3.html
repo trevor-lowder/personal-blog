@@ -1,99 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicons/site.webmanifest" />
-    <title>Blog Post 3 - Personal Blog</title>
-  </head>
-  <body>
-    <header>
-      <h1>Tech Savvy Blog</h1>
-      <hr class="solid" />
-      <nav>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="design.html">Design</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article class="post-container">
-        <section class="post-header">
-          <h1>Design Systems</h1>
-        </section>
-        <section class="post-content">
-          <div class="crop">
-            <img src="assets/sample-image.jpg" alt="Sample Image" />
-          </div>
 
-          <figcaption>Image Caption Here</figcaption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-          <!-- More content here -->
-        </section>
-        <section>
-          <div class="sharing-links">
-            <h2>Share this post:</h2>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </section>
-        <section class="author-info">
-          <img
-            src="assets/Side Profile Business.jpg"
-            alt="Author Avatar"
-            class="avatar"
-          />
-          <div class="author-details">
-            <h3>Trevor Lowder</h3>
-            <p>Full Stack Web Developer</p>
-            <p>
-              Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
-              veteran
-            </p>
-          </div>
-        </section>
-        <section class="related-posts">
-          <h3>Related Articles</h3>
-          <ol>
-            <li><a href="post1.html">Hypertext Markup Language</a></li>
-            <li><a href="post2.html">Cascading Style Sheets</a></li>
-          </ol>
-        </section>
-        <section class="card subscribe-card">
-          <h2>Subscribe for Updates</h2>
-          <form class="subscribe-form">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="email" name="email" placeholder="Email" />
-            <button type="submit" class="btn">SUBSCRIBE</button>
-          </form>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <p>&copy; 2024 Tech Savvy</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/site.webmanifest">
+  <title>Design Systems | Tech Savvy Blog</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tech Savvy Blog</h1>
+    <hr class="solid" />
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="design.html">Design</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="post-container">
+      <section class="post-header">
+        <h1>Design Systems</h1>
+      </section>
+      <section class="post-content">
+        <div class="crop">
+          <img src="assets/DesignSystems.png" alt="Sample Image" class="header-image" />
+        </div>
+        <figcaption>Design systems illustration by <a href="https://pixabay.com/users/kreatikar-8562930/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3411373">Mudassar Iqbal</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3411373">Pixabay</a></figcaption>
+        <h2>What are Design Systems?</h2>
+        <p>
+          A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications. Design systems ensure consistency, scalability, and efficiency in the design process.
+        </p>
+        <h2>Components and Patterns</h2>
+        <p>
+          Components are the building blocks of a design system. They can be as simple as a button or as complex as a navigation bar. Patterns are design solutions for recurring problems, such as form layouts or card designs.
+        </p>
+        <h2>Style Guides</h2>
+        <p>
+          A style guide is an integral part of a design system. It provides documentation on the design language, including color palettes, typography, spacing, and iconography. Style guides help maintain visual consistency across different platforms.
+        </p>
+        <h2>Benefits of Design Systems</h2>
+        <p>Implementing a design system offers several benefits:</p>
+        <ul>
+          <li><strong>Consistency</strong>: Ensures a unified look and feel across all products.</li>
+          <li><strong>Efficiency</strong>: Speeds up the design and development process.</li>
+          <li><strong>Scalability</strong>: Facilitates the development of new features and applications.</li>
+          <li><strong>Collaboration</strong>: Improves communication between designers and developers.</li>
+        </ul>
+        <h2>Conclusion</h2>
+        <p>
+          Design systems are essential for modern web development. They provide a framework for creating cohesive and scalable designs, improving both efficiency and consistency. By adopting a design system, teams can deliver better user experiences and streamline their workflows.
+        </p>
+      </section>
+      <section>
+        <div class="sharing-links">
+          <h2>Share this post:</h2>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </section>
+      <section class="author-info">
+        <img src="assets/Side Profile Business.jpg" alt="Author Avatar" class="avatar" />
+        <div class="author-details">
+          <h3>Trevor Lowder</h3>
+          <p>Full Stack Web Developer</p>
+          <p>
+            Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
+            veteran
+          </p>
+        </div>
+      </section>
+      <section class="related-posts">
+        <h2>Related Articles</h2>
+        <ol>
+          <li><a href="post1.html">Hypertext Markup Language</a></li>
+          <li><a href="post2.html">Cascading Style Sheets</a></li>
+        </ol>
+      </section>
+      <section class="card subscribe-card">
+        <h2>Subscribe for Updates</h2>
+        <form class="subscribe-form">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <button type="button" class="btn">SUBSCRIBE</button>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Trevor Lowder. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>

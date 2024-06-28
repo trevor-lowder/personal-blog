@@ -1,103 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicons/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicons/site.webmanifest" />
-    <title>CSS - Tech Savvy Blog</title>
-  </head>
-  <body>
-    <header>
-      <h1>Tech Savvy Blog</h1>
-      <hr class="solid" />
-      <nav>
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="design.html">Design</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article class="post-container">
-        <section class="post-header">
-          <h1>Cascading Style Sheets</h1>
-        </section>
-        <section class="post-content">
-          <div class="crop">
-            <img src="assets/CSS.png" alt="Sample Image" />
-          </div>
 
-          <figcaption>CSS code in VS Code</figcaption>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-          <!-- More content here -->
-        </section>
-        <section>
-          <div class="sharing-links">
-            <h2>Share this post:</h2>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <div class="divider"></div>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </section>
-        <section class="author-info">
-          <img
-            src="assets/Side Profile Business.jpg"
-            alt="Author Avatar"
-            class="avatar"
-          />
-          <div class="author-details">
-            <h3>Trevor Lowder</h3>
-            <p>Full Stack Web Developer</p>
-            <p>
-              Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
-              veteran
-            </p>
-          </div>
-        </section>
-        <section class="related-posts">
-          <h3>Related Articles</h3>
-          <ol>
-            <li><a href="post1.html">Hypertext Markup Language</a></li>
-            <li><a href="post3.html">Design Systems</a></li>
-          </ol>
-        </section>
-        <section class="card subscribe-card">
-          <h2>Subscribe for Updates</h2>
-          <form class="subscribe-form">
-            <input type="text" name="name" placeholder="Name" />
-            <input type="email" name="email" placeholder="Email" />
-            <button type="submit" class="btn">SUBSCRIBE</button>
-          </form>
-        </section>
-      </article>
-    </main>
-    <footer>
-      <p>&copy; 2024 Trevor Lowder. All rights reserved.</p>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicons/site.webmanifest">
+  <title>CSS | Tech Savvy Blog</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tech Savvy Blog</h1>
+    <hr class="solid" />
+    <nav>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="design.html">Design</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="post-container">
+      <section class="post-header">
+        <h1>Cascading Style Sheets (CSS)</h1>
+      </section>
+      <section class="post-content">
+        <div class="crop">
+          <img src="assets/CSS.png" alt="Sample Image" class="header-image" />
+        </div>
+        <figcaption>CSS code in VS Code</figcaption>
+        <h2>What is CSS?</h2>
+        <p>
+          CSS, or Cascading Style Sheets, is a stylesheet language used to describe the presentation of a document written in HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+        </p>
+        <h2>Selectors and Properties</h2>
+        <p>
+          CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. Selectors are used to select the HTML element you want to style. In the below example, the selector targets any h1 on the page and sets the color property to red.
+        </p>
+        <code class="css-code"><br><span>color: <span class="attr">red</span>;</span>
+        </code>
+        <h2>Common CSS Properties</h2>
+        <p>Here are some commonly used CSS properties:</p>
+        <ul>
+          <li><code class="attr">color</code> - Sets the color of the text.</li>
+          <li><code class="attr">font-size</code> - Sets the size of the font.</li>
+          <li><code class="attr">margin</code> - Sets the margin outside the element.</li>
+          <li><code class="attr">padding</code> - Sets the padding inside the element.</li>
+          <li><code class="attr">border</code> - Sets the border around the element.</li>
+          <li><code class="attr">background-color</code> - Sets the background color of the element.</li>
+        </ul>
+        <h2>CSS Box Model</h2>
+        <p>
+          The CSS box model is a fundamental concept that defines the structure of a web page. It consists of margins, borders, padding, and the actual content area. Understanding the box model is crucial for designing layouts in CSS.
+        </p>
+        <h2>Responsive Design</h2>
+        <p>
+          Responsive design ensures that web pages look good on all devices, from desktops to mobile phones. Techniques like media queries and flexible grid layouts are used to create responsive web designs.
+        </p>
+        <h2>Conclusion</h2>
+        <p>
+          CSS is an essential technology for web development. By mastering selectors, properties, and responsive design, you can create visually appealing and user-friendly websites.
+        </p>
+      </section>
+      <section>
+        <div class="sharing-links">
+          <h2>Share this post:</h2>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <div class="divider"></div>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </section>
+      <section class="author-info">
+        <img src="assets/Side Profile Business.jpg" alt="Author Avatar" class="avatar" />
+        <div class="author-details">
+          <h3>Trevor Lowder</h3>
+          <p>Full Stack Web Developer</p>
+          <p>
+            Tech enthusiast, Gamer, Anime lover, Japanese speaker, USAF
+            veteran
+          </p>
+        </div>
+      </section>
+      <section class="related-posts">
+        <h2>Related Articles</h2>
+        <ol>
+          <li><a href="post1.html">Hypertext Markup Language</a></li>
+          <li><a href="post3.html">Design Systems</a></li>
+        </ol>
+      </section>
+      <section class="card subscribe-card">
+        <h2>Subscribe for Updates</h2>
+        <form class="subscribe-form">
+          <input type="text" name="name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email" />
+          <button type="button" class="btn">SUBSCRIBE</button>
+        </form>
+      </section>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Trevor Lowder. All rights reserved.</p>
+  </footer>
+</body>
+
 </html>
