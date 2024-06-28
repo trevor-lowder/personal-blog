@@ -46,3 +46,23 @@ ol {
 .subscribe-card > h2 {
   font-size: 30px;
 }
+
+code {
+  color: rgb(110, 137, 225);
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 1);
+  padding: .3em;
+  border-radius: 5px;
+}
+
+.attr {
+  color: rgb(240, 156, 0);
+}
+
+.elem {
+  color: var(--accent-color);
+}
+
+.text {
+  color: white;
+}
